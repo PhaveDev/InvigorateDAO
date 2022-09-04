@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+
+:root{
+    --color-primary: 
+}
+
+html, body{
+    overflow-x: hidden;
+}
+
+#background{
+    width: 100%;
+    height: 100vh;
+    background-color: #ffffff;
+    position: relative;
+}
+
+header{
+    width: 100%;
+    height: 10vh;
+    box-shadow: 3px 3px 3px #0082ff;
+    background-color: #ffffff;
+    position: sticky;
+    z-index: 0;
+}
+
+#menu_icon{
+    width: 10%;
+    height: 10vh;
+    float: right;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#open{
+    width: 20%;
+}
+
+#logo_container{
+    width: 10%;
+    height: 10vh;
+    position: relative;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#logo{
+    width: 120%;
+}
+
+#nav_cover{
+    width: 100%;
+    height: 80vh;
+    z-index: 1;
+    display: none;
+}
+
+#nav_subcover{
+    width: 100%;
+    height: 80vh;
+    background-color: yellowgreen;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#menu{
+    width: 30%;
+    height: 50vh;
+    background-color: chocolat;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#menu h1{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#main{
+    background-color: #ffffff;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#contact_form{
+    width: 65%;
+    height: 70vh;
+}
+
+#section_one{
+    width: 50%;
+    height: 70vh;
+    background-color: #0082ff;
+    border-radius: 10px;
+    float: right;
+}
+
+#title{
+    margin-top: 3%;
+    font-size: 100%;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#section_one form input{
+    margin-left: 2%;
+    outline: none;
+    border-radius: 3px;
+    border: none;
+    padding: 2%;
+}
+
+#name{
+    width: 42%;
+    height: 3vh;
+}
+
+#organisation{
+    width: 42%;
+    height: 3vh;
+}
+
+#email{
+    width: 91%;
+    height: 3vh;
+}
+
+#message{
+    margin-left: 2%;
+    outline: none;
+    border-radius: 3px;
+    border: none;
+    padding: 2%;
+    width: 91%;
+    height: 22vh;
+}
+
+#submit{
+    width: 30%;
+    height: 5vh;
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #1f1f1f;
+    box-shadow: 2px 2px 2px orange;
+}
+
+#section_two{
+    width: 50%;
+    height: 70vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#bg_image{
+    width: 70%;
+    height: 40vh;
+    background-image: url('./icons/Sending\ emails_Outline.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 172%;
+}
+
+footer{
+    width: 100%;
+    height: 10vh;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 5px #0082ff;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#footer_subsection{
+    width: 100%;
+    height: 8vh;
+    position: relative;
+}
+
+#footer_subsection h1{
+    font-size: 70%;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1f1f1f;
+}
+
+#footer_logo{
+    width: 8%;
+    height: 8vh;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('./icons/Invigorate DAO logo.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#links{
+    width: 60%;
+    height: 8vh;
+    position: absolute;
+    margin-left: 12%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#links h1{
+    margin-left: 6%;
+}
+
+#copyright{
+    width: 20%;
+    height: 8vh;
+    position: absolute;
+    margin-left: 80%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
